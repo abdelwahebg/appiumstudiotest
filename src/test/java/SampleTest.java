@@ -5,6 +5,10 @@ import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.By;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
 import java.net.URL;
 import java.net.MalformedURLException;
 
